@@ -1,0 +1,32 @@
+/*
+A
+BB
+CCC
+DDDD
+EEEEE
+FFFF
+GGG
+HH
+I
+*/
+#include<stdio.h>
+main()
+{
+	int i,j;
+	for(i=65;i<=69;i++)
+	{
+		for(j=65;j<=i;j++)
+		{
+			printf("%c",i);
+		}
+		printf("\n");
+	}
+	for(i=70;i<=73;i++)
+	{
+		for(j=i;j<=73;j++)
+		{
+			printf("%c",i);
+		}
+		printf("\n");
+	}
+}
